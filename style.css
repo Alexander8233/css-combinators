@@ -1,0 +1,25 @@
+.descendent h1{
+  font-size: 20px;
+  background-color: rgba(94, 255, 0, 0.548);
+  color: rgb(3, 3, 3);
+  padding-left: 150px;
+}
+ .selectors  ~  p{
+  font-size: 20px;
+  padding-left: 150px;
+  background-color: yellow;
+  color: rgb(8, 0, 0);
+}
+
+#adjacent + h2{
+    display: inline-block;
+    padding-left: 150px;
+  color: rgb(190, 8, 8);
+  background-color: rgb(47, 28, 65);
+}
+.general ~ h3{
+  color: rgb(190, 8, 8);
+  background-color: blueviolet;
+  padding-left: 150px;
+}
+/* Type selectors: it selects all instance of a specified html element */
